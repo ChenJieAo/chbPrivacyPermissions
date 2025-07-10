@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人单机游戏隐私政策 | Privacy Policy for Single-player Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .contact {
+            background-color: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .update-note {
+            color: #666;
+            font-style: italic;
+        }
+        .lang-toggle {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .lang-btn:hover {
+            background-color: #45a049;
+        }
+        .cn-section, .en-section {
+            margin-bottom: 30px;
+        }
+        .en-section {
+            color: #666;
+            border-left: 3px solid #ddd;
+            padding-left: 15px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="lang-toggle">
+        <button class="lang-btn" onclick="toggleLanguage('cn')">中文</button>
+        <button class="lang-btn" onclick="toggleLanguage('en')">English</button>
+    </div>
+
+    <h1>个人单机游戏隐私政策</h1>
+    <div class="en-section">
+        <h1>Privacy Policy for Single-player Games</h1>
+    </div>
+
+    <h2>一、总则</h2>
+    <div class="en-section">
+        <h2>1. General Provisions</h2>
+    </div>
+    <div class="cn-section">
+        <p>本隐私政策旨在说明本人所开发的单机游戏（以下简称“本游戏”）在用户使用过程中的信息收集与处理相关事宜。</p>
+        <p>本人承诺，所开发的单机游戏均为纯单机模式，<strong>不会以任何形式收集、存储、使用或分享用户的个人信息</strong>，包括但不限于姓名、身份证号、手机号、位置信息、设备标识符、使用行为数据等。</p>
+    </div>
+    <div class="en-section">
+        <p>This Privacy Policy is intended to explain matters related to the collection and processing of user information during the use of the single-player games (hereinafter referred to as "the Games") developed by me.</p>
+        <p>I hereby commit that all the single-player games developed are purely offline mode and <strong>will not collect, store, use or share user's personal information in any form</strong>, including but not limited to name, ID number, phone number, location information, device identifier, usage behavior data, etc.</p>
+    </div>
+
+    <h2>二、信息收集说明</h2>
+    <div class="en-section">
+        <h2>2. Information Collection</h2>
+    </div>
+    <div class="cn-section">
+        <p>本游戏在运行过程中，不会主动请求获取用户的任何权限（如位置权限、通讯录权限、相机权限等），也不会通过任何技术手段收集用户的个人信息或设备信息。</p>
+        <p>所有游戏数据（如存档、设置等）均仅存储在用户的本地设备中，不会上传至任何服务器。</p>
+    </div>
+    <div class="en-section">
+        <p>During the operation of the Games, no permissions (such as location, contacts, camera, etc.) will be actively requested from users, nor will any technical means be used to collect users' personal or device information.</p>
+        <p>All game data (such as save files, settings, etc.) are stored only on the user's local device and will not be uploaded to any server.</p>
+    </div>
+
+    <h2>三、联系方式</h2>
+    <div class="en-section">
+        <h2>3. Contact Information</h2>
+    </div>
+    <div class="cn-section contact">
+        <p>如您对本隐私政策有任何疑问、建议或其他需求，可通过以下方式联系本人：</p>
+        <p>QQ：535484676</p>
+        <p>Email: 535484676@qq.com</p>
+    </div>
+    <div class="en-section contact">
+        <p>If you have any questions, suggestions or other requests regarding this Privacy Policy, please contact me via:</p>
+        <p>QQ: 535484676</p>
+        <p>Email: 535484676@qq.com</p>
+    </div>
+
+    <h2>四、政策更新</h2>
+    <div class="en-section">
+        <h2>4. Policy Updates</h2>
+    </div>
+    <div class="cn-section">
+        <p class="update-note">本隐私政策可能会根据实际情况进行更新，更新后的政策将在游戏内适当位置提示，建议您定期查看。</p>
+    </div>
+    <div class="en-section">
+        <p class="update-note">This Privacy Policy may be updated according to actual circumstances. The updated policy will be notified in appropriate locations within the Games. We recommend that you check it regularly.</p>
+    </div>
+
+    <script>
+        function toggleLanguage(lang) {
+            const cnSections = document.querySelectorAll('.cn-section');
+            const enSections = document.querySelectorAll('.en-section');
+            
+            if (lang === 'cn') {
+                cnSections.forEach(section => section.style.display = 'block');
+                enSections.forEach(section => section.style.display = 'block');
+            } else if (lang === 'en') {
+                cnSections.forEach(section => section.style.display = 'none');
+                enSections.forEach(section => section.style.display = 'block');
+            }
+        }
+    </script>
+</body>
+</html>
